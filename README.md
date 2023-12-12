@@ -4,6 +4,7 @@
 A320 Gimbal Joystick using AS5600 sensor
 
 Gimbal by Olukelo
+
 Joystick by Joker_G
 
 1. Job Set-up Information
