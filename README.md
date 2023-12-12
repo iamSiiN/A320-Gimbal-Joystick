@@ -98,39 +98,39 @@ Joystick by Joker_G
 
     Ref. to fig. ![AS5600 SERIAL INTERFACE PROGRAM](image-1.png)
 
-    1. Install Seeed_Arduino_AS5600 Library in ArduinoIDE
-    2. Upload Groove-AS5600 fullFunction Example (File->Example->Groove-AS5600->fullFunction)      
-    3. Open Serial Monitor (Ctrl+Shift+M)
-    4. Select Baudrate 115200
-    5. Type Command 7 to view your Raw Angle(Current Position)
-    6. Type Command 4 to view Max Angle Range
-    7. Move Joystick to Start of Range
-        1. Type Command 7 to view/get Raw Angle 
-        2. Type Command 1 to Set start Position
-    8. Move Joystick to End of Range
-        1. Type Command 7 to view/get Raw Angle 
-        2. Type Command 21 to Set end Position
-    9. Type Command 4 to Verify Max Angle Range
-    10. Type Command 8 to Verify Scaled Range   
-    11. Please read below note before proceeding. Type Command 96 to Burn Angle on sensor.
-    12. Unplug USB and Recconnect, Type Command 4 and 8 to Verify succesful programming
-    13. Repeat Steps 3-12 for the other sensor.
-    14. Solder the wires for VCC, OUT, GND on the Sensor , Length as required to be connected to Arduino Pro Micro
+        1. Install Seeed_Arduino_AS5600 Library in ArduinoIDE
+        2. Upload Groove-AS5600 fullFunction Example (File->Example->Groove-AS5600->fullFunction)      
+        3. Open Serial Monitor (Ctrl+Shift+M)
+        4. Select Baudrate 115200
+        5. Type Command 7 to view your Raw Angle(Current Position)
+        6. Type Command 4 to view Max Angle Range
+        7. Move Joystick to Start of Range
+            1. Type Command 7 to view/get Raw Angle 
+            2. Type Command 1 to Set start Position
+        8. Move Joystick to End of Range
+            1. Type Command 7 to view/get Raw Angle 
+            2. Type Command 21 to Set end Position
+        9. Type Command 4 to Verify Max Angle Range
+        10. Type Command 8 to Verify Scaled Range   
+        11. Please read below note before proceeding. Type Command 96 to Burn Angle on sensor.
+        12. Unplug USB and Recconnect, Type Command 4 and 8 to Verify succesful programming
+        13. Repeat Steps 3-12 for the other sensor.
+        14. Solder the wires for VCC, OUT, GND on the Sensor , Length as required to be connected to Arduino Pro Micro
 
     **Note: You only have 3 chances to Perform Burn Angle command and a One time chance to Burn Settings.**
 
     **C. Joystick Library Installation**
 
-    1. Install Joystick Library https://github.com/MHeironimus/ArduinoJoystickLibrary
-    2. Download main.cpp
-    3. you may modify the code for your specific needs. the code features the whole side console of a320 cockpit mainly for Nose Wheel Steering and Joystick.
+        1. Install Joystick Library https://github.com/MHeironimus/ArduinoJoystickLibrary
+        2. Download main.cpp
+        3. you may modify the code for your specific needs. the code features the whole side console of a320 cockpit mainly for Nose Wheel Steering and Joystick.
 
     **D. Arduino Pro Micro Wiring**
     
-    1. Hook all VCC wires to Arduino Pro Micro +5v VCC Pin
-    2. Hook all GND wires to Arduino Pro Micro GND Pin
-    3. Assign all PushButton pins to Arduino Pro Micro Digital Pins 
-    4. Assign AS5600 OUT Pins to Arduino Pro Micro Analog Input Pins
+        1. Hook all VCC wires to Arduino Pro Micro +5v VCC Pin
+        2. Hook all GND wires to Arduino Pro Micro GND Pin
+        3. Assign all PushButton pins to Arduino Pro Micro Digital Pins 
+        4. Assign AS5600 OUT Pins to Arduino Pro Micro Analog Input Pins
 
 DISCLAIMER: I am no expert in Arduino Coding nor any programming language. I am barely just only at an Introductory level. I apologize if there are any mistakes in the code, most of it were just dissections of youtube tutorials and other tutorials i find in instructables and examples combined and most of the time I am just guessing with the basis of things from here must match to there.
 I created this guide for myself, as i tend to forget most of the things when i jump to my next DIY project. I had to make this to a point that i could still follow even if i forget how to do things as I only learn things as i go when i want to DIY stuff. Hopefully i will retain whatever i learned here.
