@@ -73,7 +73,7 @@ Joystick by Joker_G
     ![AS5600 DATASHEET PROGRAMMING SCHEMATIC](image-3.png)
 
     
-    1. Remove/Unsolder R1 (to use 5v) and R4 Resistor (for 5v analog OUT)
+    1. Remove/Unsolder R4 Resistor (for 5v analog OUT/PROGRAMMING)
     2. Using the Breadboard and Jumpers, Hook-up Up the Following PINS:
 
         - AS5600 VCC Pin to Arduino Pro Micro +5v Pin
@@ -104,19 +104,18 @@ Joystick by Joker_G
         3. Open Serial Monitor (Ctrl+Shift+M)
         4. Select Baudrate 115200
         5. Type Command 7 to view your Raw Angle(Current Position)
-        6. Type Command 4 to view Max Angle Range
-        7. Move Joystick to Start of Range
+        6. Move Joystick to MIN of Range
             1. Type Command 7 to view/get Raw Angle 
             2. Type Command 1 to Set start Position
-        8. Move Joystick to End of Range
+        7. Move Joystick to MAX of Range
             1. Type Command 7 to view/get Raw Angle 
-            2. Type Command 21 to Set end Position
-        9. Type Command 4 to Verify Max Angle Range
-        10. Type Command 8 to Verify Scaled Range   
-        11. Please read below note before proceeding. Type Command 96 to Burn Angle on sensor.
-        12. Unplug USB and Recconnect, Type Command 4 and 8 to Verify succesful programming
-        13. Repeat Steps 3-12 for the other sensor.
-        14. Solder the wires for VCC, OUT, GND on the Sensor , Length as required to be connected to Arduino Pro Micro
+            2. Type Command 2 to Set end Position    
+        8. Please read below note before proceeding. Type Command 96 to Burn Angle on sensor.
+        9. Unplug USB and Recconnect, Type Command 8 to Verify Scaled Range.
+        10. Perform Functional Check, from the MIN to MAX position Incrementaly move your Axis and Type Command 8 per Increment.
+        11. Perform Analog Output functional Check via MULTIMETER 
+        12. Repeat Steps 3-12 for the other sensor.
+        13. Solder the wires for VCC, OUT, GND on the Sensor , Length as required to be connected to Arduino Pro Micro
 
     **Note: You only have 3 chances to Perform Burn Angle command and a One time chance to Burn Settings.**
 
