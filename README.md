@@ -54,7 +54,7 @@ Joystick by Joker_G
         3. AS55600 holder m5 threaded (https://www.thingiverse.com/thing:6367969 (Optional))
         
 
-    NOTE: The following are required to be able to Program the Max Angle on the AS5600 sensor to work as an Aanalog Potentiometer.
+    NOTE: The following are required to be able to Program the Max Angle on the AS5600 sensor to work as an Analog Potentiometer.
 
     **B. Wiring** 
     
