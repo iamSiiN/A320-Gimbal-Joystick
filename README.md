@@ -72,19 +72,23 @@ Joystick by Joker_G
     
     ![AS5600 DATASHEET PROGRAMMING SCHEMATIC](image-3.png)
 
-    
-    1. Remove/Unsolder R4 Resistor (for 5v analog OUT/PROGRAMMING)
+   NOTE: For Convinience, I recommend to solder only the 4 Pin Headers to use dupont connectors only for programmming (DIR,SCL,SDA,PGO). Solder the wires for VCC,OUT and GND. 
+
+   
+    1. Remove/Unsolder R1 AND R4 Resistor (for 5v analog OUT/PROGRAMMING)
     2. Using the Breadboard and Jumpers, Hook-up Up the Following PINS:
 
         - AS5600 VCC Pin to Arduino Pro Micro +5v Pin
         - AS5600 GND Pin to Arduino Pro Micro GND Pin
         - AS5600 SDA Pin to Arduino Pro Micro Pin 2 
         - AS5600 SCL Pin to Arduino Pro Micro Pin 3
-        - AS5600 DIR Pin to GND FOR CLOCKWISE (VDD FOR COUNTER CLOCKWISE)
+        - AS5600 DIR Pin to GND FOR CLOCKWISE (VCC FOR COUNTER CLOCKWISE)
         - AS5600 PGO Pin to GND
+      
+       NOTE: I had success analog output with wiring DIR Pin to VCC.
 
 
-3. Procedure
+4. Procedure
 
     **A. ASSEMBLE**
 
