@@ -1,7 +1,7 @@
 # A320-Gimbal-Joystick
 **DIY Gimbal A320 Joystick**
 
-A320 Gimbal Joystick using AS5600 sensor
+A320 Gimbal Joystick using AS5600 sensor analog Output
 
 Gimbal by Olukelo
 
