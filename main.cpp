@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 #include <Joystick.h>  //get the library here: https://github.com/MHeironimus/ArduinoJoystickLibrary
-#include <AS5600.h>
+
 
 //In this project i need, total of 3 buttons: ptt trigger, side stick priority button, pedal disconnect button.
 // X and Y axis for Gimbal, and Steering Axis for NWS Tiller
@@ -79,13 +79,13 @@ void loop() {
 //button2 - Priority/AP Button
   int currentButton2State = !digitalRead(button_input2);
   if (currentButton2State != lastButton2State) {
-    Joystick.setButton (0, currentButton2State);
+    Joystick.setButton (1, currentButton2State);
     lastButton2State = currentButton2State;
   }
 //button3 NWS Tiller Pedal Disc
   int currentButton3State = !digitalRead(button_input3);
   if (currentButton3State != lastButton3State) {
-    Joystick.setButton (0, currentButton3State);
+    Joystick.setButton (2, currentButton3State);
     lastButton3State = currentButton3State;
   }
 
