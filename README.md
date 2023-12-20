@@ -131,7 +131,10 @@ Joystick by Joker_G
         3. you may modify the code for your specific needs. the code features the whole side console of a320 cockpit mainly for Nose Wheel Steering and Joystick.
 
     **D. Arduino Pro Micro Wiring**
-    
+
+    Ref. to fig. ![Wiring Diagram](Schematic_New Project_2023-12-20.png)
+
+
         1. Hook all VCC wires to Arduino Pro Micro +5v VCC Pin
         2. Hook all GND wires to Arduino Pro Micro GND Pin
         3. Assign all PushButton pins to Arduino Pro Micro Digital Pins 
