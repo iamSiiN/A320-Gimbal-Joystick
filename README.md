@@ -16,6 +16,7 @@ Joystick by Joker_G
         2.  A. AS5600 update for greatest olukelo joystick https://www.thingiverse.com/thing:5874121
             B. AS55600 holder m5 threaded https://www.thingiverse.com/thing:6367969
         3. Sidestick Grip for Virpil Thrustmaster VKB Joysticks https://www.printables.com/model/125176-sidestick-grip-for-virpil-thrustmaster-vkb-joystic/files
+        4. Joystick Attachment for Sidestick Grip https://www.thingiverse.com/thing:6388280
 
     **B. Libraries:**
 
@@ -45,7 +46,7 @@ Joystick by Joker_G
     **D. References**
 
         1. ArduinoIDE Library Installation (https://support.arduino.cc/hc/en-us/articles/5145457742236-Add-libraries-to-Arduino-IDE)
-2. Job Set-up
+3. Job Set-up
 
     **A. 3D Print**
 
