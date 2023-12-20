@@ -132,7 +132,10 @@ Joystick by Joker_G
 
     **D. Arduino Pro Micro Wiring**
 
-    Ref. to fig. ![Wiring Diagram](Schematic_New Project_2023-12-20.png)
+    Ref. to fig.
+
+    ![WIRING SCHEMATIC](image-4.png)
+   
 
 
         1. Hook all VCC wires to Arduino Pro Micro +5v VCC Pin
